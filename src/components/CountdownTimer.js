@@ -4,7 +4,7 @@ import clsx from "clsx";
 import { End } from "./End";
 
 function CountdownTimer() {
-  const [expiryTime, setExpiryTime] = useState("14 mar 2023 22:00:00");
+  const [expiryTime, setExpiryTime] = useState("14 mar 2023 24:00:00");
   const [countdownTime, setCountdownTime] = useState({
     countdownDays: "",
     countdownHours: "",
