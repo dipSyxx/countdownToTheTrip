@@ -66,7 +66,7 @@ function CountdownTimer() {
                     {countdownTime.countdownDays}{" "}
                   </button>
                   <>
-                    <div className={styles.subs}>Days</div>
+                    <div className={clsx(styles.subs)}>Days</div>
                   </>
                 </div>
                 <button
